@@ -11,15 +11,31 @@ git commit -m "head version"
 git commit -q
 
 branch:
+git branch -v
+git branch -r 
+git branch --all
+git branch <branch name>
+git branch -f <branch name>
+git -d <branch name>
 git pull
 git push <remote name> <branch>
 
-config:
+check:
+git checkout <branch name>
+git checkout -b <branch name>
+git checkout <fail name>
+git checkout <folder name>
+
+remote:
 git remote
 git remote -v
 git remote add <remote name><remote url>
 git remote remove <remote name>
+
+git config:
 git config --list
+git config --global user.name "<name>"
+git config --global user.email <email>
 
 reset:
 git reset
