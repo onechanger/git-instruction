@@ -1,3 +1,4 @@
+init:(mkdir and cd):
 git init
 
 worktree:
