@@ -1,0 +1,11 @@
+git add <fail> 
+git add --all
+git rm <fail>
+git mv <fail>
+git commit -m "head version"
+git commit -q
+git reset
+git reset --hard
+git config --list
+git worktree list
+git worktree list --porcelain
