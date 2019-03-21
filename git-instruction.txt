@@ -1,3 +1,5 @@
+git init
+
 worktree:
 git add <fail> 
 git add --all
@@ -16,9 +18,10 @@ git branch -r
 git branch --all
 git branch <branch name>
 git branch -f <branch name>
-git -d <branch name>
-git pull
-git push <remote name> <branch>
+git branch -d <branch name>
+git pull <remote name> <branch name>
+git push <remote name> <branch name>
+git push <remote name> --delete <branch name>
 
 check:
 git checkout <branch name>
