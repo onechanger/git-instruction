@@ -1,11 +1,28 @@
+worktree:
 git add <fail> 
 git add --all
 git rm <fail>
 git mv <fail>
-git commit -m "head version"
-git commit -q
-git reset
-git reset --hard
-git config --list
 git worktree list
 git worktree list --porcelain
+
+head:
+git commit -m "head version"
+git commit -q
+
+branch:
+git pull
+git push <remote name> <branch>
+
+config:
+git remote
+git remote -v
+git remote add <remote name><remote url>
+git remote remove <remote name>
+git config --list
+
+reset:
+git reset
+git reset --hard
+
+控制面板\用户帐户\凭据管理器
