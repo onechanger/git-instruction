@@ -1,7 +1,7 @@
 worktree:
 git add <fail> 
 git add --all
-git rm <fail>
+git rm <fail> [-r -f]
 git mv <fail>
 git worktree list
 git worktree list --porcelain
