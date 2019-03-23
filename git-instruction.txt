@@ -1,5 +1,6 @@
-init:(mkdir and cd):
-git init
+init:
+git init (mkdir and cd)
+git clone
 
 worktree:
 git add <fail> 
